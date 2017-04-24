@@ -1,0 +1,9 @@
+.cajaBlanca{
+  position:relative;
+  background: #FFF;
+  border: solid #000;
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  margin: 15px;  
+}
