@@ -1,7 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+#cabezal {  /*diana*/
+    height: 40px;
+    padding: 20px;
+    background-color: #ffce00;
+}
+
+#laboratoria {
+    background-color: #ffeb00;
+    text-align: center;
+    color: white;
+    padding: 300px 0 300px 0;
+}
+
+#laboratoria>h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#contenedor {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .cajaBlanca{
-   width: 400px;
-   height: 500px;
-   position: absolute;
-   margin: 15px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 15px;
     display: inline-block;
+    background-color: white;
+    margin: 5% 2%;
+}
+
+footer {
+    background-color: #4a4949;
+    height: 60px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
 }

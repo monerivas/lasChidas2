@@ -1,0 +1,12 @@
+.diana>img {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin: 30px 45px;
+}
+
+.diana>h3, .diana>p {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: 45px;
+    color: #626262;
+}
