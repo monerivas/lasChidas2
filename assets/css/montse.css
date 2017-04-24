@@ -1,0 +1,46 @@
+.montseMusica{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 20px 48px 0px;
+}
+
+#montseCosaFavorita1{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0px 150px;
+}
+#montseCosaFavorita2{
+    float: left;
+    margin: 0px 40px;
+    display: block;
+}
+
+#montseImg1{
+    display: inline-block;
+    position: absolute;
+}
+
+#montseImg2{
+    float: right;
+    display: inline-block;
+    position: absolute;
+}
+.montseTitulo{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.montseInfo{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.montseBoton{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkorange;
+    color: white;
+}
