@@ -3,4 +3,5 @@
    height: 500px;
    position: absolute;
    margin: 15px;
+    display: inline-block;
 }
