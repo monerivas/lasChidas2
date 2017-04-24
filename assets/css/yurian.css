@@ -1,9 +1,46 @@
-.cajaBlanca{
-  position:relative;
-  background: #FFF;
-  border: solid #000;
+  #cajaBlanca1{
+  position:absolute;
+  border: solid #A6BEAB;
   width: 400px;
   height: 500px;
   display: inline-block;
   margin: 15px;
 }
+
+#cajaBlanca2{
+  position:absolute;
+  background: #FFF;
+  border: solid #A6BEAB;
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  margin: 15px;
+  left: 450px;
+}
+
+ #cajaGris1{
+   position:relative;
+   background: #FFF;
+   width: 200px;
+   height: 100px;
+   display: inline-block;
+   margin: 15px;
+   left: 80px;
+   font-family: "Century Gothic";
+   color: #000;
+ }
+
+ #cajaGris2{
+   position:relative;
+   background: #FFF;
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+   margin: 15px;
+   left: 95px;
+   font-family: "Century Gothic";
+ }
+
+ p{
+   font-size: 10px;
+ }
