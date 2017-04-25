@@ -1,0 +1,21 @@
+#textoM {
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+  color: #DB8FB2;
+  font-size: 40px;
+  }
+
+  /*#mire {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  border:4px solid #f60;
+  background: #fed;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+    #mire:hover{
+      background:#CCCCFF;
+    }*/
