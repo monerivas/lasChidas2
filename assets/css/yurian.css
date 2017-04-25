@@ -1,4 +1,4 @@
-  #cajaBlanca1{
+#cajaBlanca1{
   position:absolute;
   border: solid #A6BEAB;
   width: 400px;
@@ -26,8 +26,6 @@
    display: inline-block;
    margin: 15px;
    left: 80px;
-   font-family: "Century Gothic";
-   color: #000;
  }
 
  #cajaGris2{
@@ -38,9 +36,12 @@
    display: inline-block;
    margin: 15px;
    left: 95px;
-   font-family: "Century Gothic";
  }
 
- p{
-   font-size: 10px;
- }
+.botonYu{
+	border-radius:28px;
+	border:1px solid #000;
+	display:inline-block;
+	color:#000;
+
+}
