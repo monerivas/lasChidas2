@@ -1,7 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+#cabezal {  /*diana*/
+    height: 40px;
+    padding: 20px;
+    background-color: #ffce00;
+}
+
+#navegador{
+    float: left;
+}
+#navegador ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: 500;
+    color: #2a2727;
+}
+
+#botonHeader{
+    float: right;
+    height: 35px;
+    width: 100px;
+    font-weight: 300;
+    background-color: #393939;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    border-radius: 5px;
+    border: none;
+}
+
+#laboratoria {
+    background-color: #ffeb00;
+    text-align: center;
+    color: white;
+    padding: 300px 0 300px 0;
+}
+
+#laboratoria>h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#contenedor {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cajaBlanca{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 15px;
+    display: inline-block;
+    background-color: white;
+    margin: 5% 2%;
+}
+
+footer {
+    background-color: #4a4949;
+    height: 60px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
 .cajaBlanca{
    width: 400px;
    height: 500px;
-   position: absolute;
+   position: relative;
    margin: 15px;
     display: inline-block;
 }
