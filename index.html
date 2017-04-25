@@ -3,47 +3,88 @@
   <head>
     <meta charset="utf-8">
     <title>Laboratoria Las Chidas</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/diana.css">     
+    <link rel="stylesheet" type="text/css" href="assets/css/montse.css">
     <link rel="stylesheet" type="text/css" href="assets/css/val.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/mone.css" />
+    
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/mireya.css">
+
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">
+
   </head>
   <body>
    
     <header id="cabezal" >
      <nav id="navegador" >
         <ul>
-           <li><a>INICIO</a></li>
-            <li><a>PORTAFOLIO</a></li>
-            <li><a>CONTACTO</a></li>
+                <li><a href="#laboratoria">INICIO</a></li>
+                <li><a href="#contenedor">PORTAFOLIO</a></li>
+                <li><a href="">CONTACTO</a></li>
         </ul>
      </nav>
      <button type="button" id="botonHeader">SÚMATE</button>
     </header>
-    
+
     <section id="laboratoria">
-      <h1>laboratoria</h1>
+      <h1>Laboratoria</h1>
       <h2>Nuestro portafolio</h2>
     </section>
 
     <section id="contenedor">
-      <div id="ann"></div>
-      <div id="pilar"></div>
-      
-      <div class="seccionPersonal" id="montse">
-          <div class="cajaBlanca" id="montseCosaFavorita1">
-            <img id="montseMusica" src="assets/img/montsemusica.jpg"/>
-            <h3 id="montseTitulo">Musica</h3>
-            <p id="montseInfo">Don't stop me now I'm having such<br> a good time i'm having a ball<br>
-            Don't stop me now <br>If you wanna have a good time <br>just give me a call<br>
-            Don't stop me now ('Cause I'm having <br>a good time) Don't stop…</p>
-            <span id="montseBoton">Leer Más</span>
+      <div class="seccionPersonal">
+          <div class="cajaBlanca">
+              <img src="assets/img/targaryen.jpg" alt="">
+              <h3>GOT</h3>
+              <p>jdjdhshdh dhdghd hdgs dhd shgd shdgjsbd+ dhdh ue dksie</p>
+              <button>LEE MÁS</button>
           </div>
           <div class="cajaBlanca">
-              
+              <img src="assets/img/zombie-1-300x300.jpg" alt="">
+              <h3>Zombies</h3>
+              <p>jsue dhdgd dhs chdkld cjdkdn dud sjdskdeudebdjsk</p>
+              <button>LEE MÁS</button>
+          </div>
+
+      </div>
+      <div id="pilar"></div>
+
+      <div class="seccionPersonal" id="montse">
+          <div id="montseCosaFavorita1" class="cajaBlanca">
+            <img class="montseMusica" id="monseImg1" src="assets/img/montsemusica.jpg"/>
+            <h3 class="montseTitulo">Musica</h3>
+            <p class="montseInfo">Don't stop me now I'm having such a good time <br>
+            i'm having a ball, don't stop me now If you wanna have a <br> good timejust give me a call. Don't stop me now<br> ('Cause I'm having a good time) Don't stop…
+            </p>
+            <p class="montseBoton">LEER MÁS</p>
+          </div>
+
+
+          <div id="montseCosaFavorita2" class="cajaBlanca">
+            <img class="montseMusica" id="monseImg1" src="assets/img/montsetatuaje.jpg"/>
+            <h3 class="montseTitulo">Tatuajes</h3>
+              <p class="montseInfo">La manada la lideran dos individuos que están en lo más<br> alto de la jerarquía social: el macho reproductor y la <br>hembra reproductora. La manada posee fuertes instintos<br> de compañerismo, el resto de la manada los sigue.</p>
+            <p class="montseBoton">LEER MÁS</p>
+
           </div>
       </div>
-      
-      <div id="dian"></div>
+
+       <div id="dian" class="seccionPersonal">
+                <div class="cajaBlanca diana">
+                    <img src="assets/img/diana01.jpg" alt="">
+                    <h3>Encuadernación</h3>
+                    <p>Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados.</p> 
+                </div>
+                <div class="cajaBlanca diana">
+                    <img src="assets/img/diana02.jpg" alt="">
+                    <h3>Comer</h3>
+                    <p>Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias. Hablamos de un país paraisomático en el que a uno le caen pedazos de frases asadas en la boca.</p>
+                </div>
+            </div>
       <div id="vale">
           <div class="cajaBlanca" >
               <div class="vale" >
@@ -55,7 +96,7 @@
                   <button class="botonVal" >Lee más</button>
               </div>
           </div>
-          
+
           <div class="cajaBlanca" >
               <div class="vale" >
                   <img class="imagenVal" src="assets/img/diseno.jpg" />
@@ -68,10 +109,46 @@
           </div>
           
       </div>
-      <div id="mone"></div>
+         <div id="mone" class="seccionPersonal">
+          <div id="moneCaja1" class="cajaBlanca">
+              <div id="moneImagen1"><img src="assets/img/tacos.jpg" alt=""></div>
+              <h3>Taquitos!!</h3>
+              <p id="moneTexto1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          </div>
+          <div id="moneCaja2" class="cajaBlanca">
+              <img src="assets/img/dormir.jpg" alt="">
+              <h3>Dormir!!</h3>
+              <p id="moneTexto2"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>              
+          </div>
+        </div>
       <div id="rena"></div>
       <div id="yu"></div>
-      <div id="mire"></div>
+
+      <div class="seccionPersonal"id="mire">
+
+            <div class="cajaBlanca" id="fondoMir">
+              <img class="imagenMir" src="assets/img/planeta.jpg" width="200" height="200" />
+              <h3 id="textoM">Fantasia</h3>
+              <p class="parrafoM">El mago se había acostumbrado a
+                 llevar su chistera en la cabeza,
+                 y parecía que en sus números de
+                 magia le daba suerte y energía para
+                 seguir adelante si algún truco no le
+                 salía bien del todo. </p>
+              <button class="botonM">Leer Más</button>
+            </div>
+            <div class="cajaBlanca" id="fondoM">
+              <img class="imagenMir" src="assets/img/mar.jpg"/ width="200" height="200" >
+              <h3 id="textoM">Animales Acuaticos</h3>
+              <p class="parrafoM">Hoy he visto unas fotos preciosas del
+                mar y recordé que es una de las cosas que más amo en el
+                mundo... he deleitando tanto mi vista en las imágenes
+                que mi mente a viajado hasta sus orillas.
+               </p>
+              <button class="botonM" >Leer Más</button>
+
+            </div>
+      </div>
     </section>
 
     <footer>Laboratoria 2017. sumate@laboratoria.la tel:+51 997 350 298</footer>

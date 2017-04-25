@@ -75,11 +75,3 @@ footer {
     text-align: center;
     color: white;
 }
-
-.cajaBlanca{
-   width: 400px;
-   height: 500px;
-   position: relative;
-   margin: 15px;
-    display: inline-block;
-}
