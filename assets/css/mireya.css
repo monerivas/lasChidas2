@@ -1,0 +1,42 @@
+#textoM {
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+  color: #DB8FB2;
+  font-size: 40px;
+  }
+
+.imagenMir{
+  position: relative;
+  float: left;
+  margin: 3%;
+  border-radius : 20% ;
+  margin-left: 17%;
+  margin-top: 8%;
+    }
+
+.botonM{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#638cb5;
+        border:0px;
+        width:100px;
+        height:23px;
+        margin-left: 35%;
+       }
+       .botonM:hover{
+         text-decoration:underline;
+       }
+.parrafoM {
+  font-family: fantasy;
+}
+
+#fondoM{
+    background-color: lightblue;
+}
+
+#fondoMir{
+    background-color: #14B76E;
+
+}
