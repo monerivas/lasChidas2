@@ -1,0 +1,26 @@
+#annimg {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin: 30px 45px;
+}
+
+.anntitulo {
+    font-family: monospace;
+    width: 300px;
+    margin-left: 45px;
+    color: #626262;
+}
+
+.annp {
+    font-family: monospace;
+    width: 300px;
+    margin-left: 45px;
+    color: #626262;
+    
+}
+
+.botonann{
+    border-radius: 5px;
+    color: white;
+    background-color: red
+}
